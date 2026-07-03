@@ -1,0 +1,30 @@
+# Raw dataset (obtain separately; see data/README.md)
+data/*.arff
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pipeline logs
+full_pipeline.log
+quick_verify.log
+
+# LaTeX build artifacts
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Course download bundle (not part of public repo)
+data.zip
+case_study_4_tom_hines.pdf
